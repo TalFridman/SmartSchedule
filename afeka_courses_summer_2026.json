@@ -1,0 +1,7040 @@
+[
+  {
+    "course_code": "40130",
+    "course_name": "אבטחת איכות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264013005",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' כהנא דפנה",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      }
+    ],
+    "linked_courses": [
+      "264013005",
+      "264013005/1"
+    ]
+  },
+  {
+    "course_code": "40130",
+    "course_name": "אבטחת איכות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264013005",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' כהנא דפנה",
+    "room": "101 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      }
+    ],
+    "linked_courses": [
+      "264013005",
+      "264013005/1"
+    ]
+  },
+  {
+    "course_code": "40130",
+    "course_name": "אבטחת איכות",
+    "course_type": "תרגול",
+    "group": "264013005/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "גב' כהנא דפנה",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40130",
+    "course_name": "אבטחת איכות",
+    "course_type": "תרגול",
+    "group": "264013005/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "גב' כהנא דפנה",
+    "room": "101 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10313",
+    "course_name": "אבטחת מידע",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261031308",
+    "scheduled": false,
+    "semester": null,
+    "day": null,
+    "start_time": null,
+    "end_time": null,
+    "lecturer": null,
+    "room": null,
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תקשורת מחשבים לתוכנה",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261031308",
+      "261031308/1"
+    ]
+  },
+  {
+    "course_code": "10313",
+    "course_name": "אבטחת מידע",
+    "course_type": "תרגול",
+    "group": "261031308/1",
+    "scheduled": false,
+    "semester": null,
+    "day": null,
+    "start_time": null,
+    "end_time": null,
+    "lecturer": null,
+    "room": null,
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תקשורת מחשבים לתוכנה",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30150",
+    "course_name": "אלקטרוניקה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263015005",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר נמני יגאל",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להנדסת חשמל ואלקטרוניקה",
+        "alternative": "הנדסת חשמל 1"
+      },
+      {
+        "required": "אלקטרוניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263015005",
+      "263015005/1"
+    ]
+  },
+  {
+    "course_code": "30150",
+    "course_name": "אלקטרוניקה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263015005",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר נמני יגאל",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להנדסת חשמל ואלקטרוניקה",
+        "alternative": "הנדסת חשמל 1"
+      },
+      {
+        "required": "אלקטרוניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263015005",
+      "263015005/1"
+    ]
+  },
+  {
+    "course_code": "30150",
+    "course_name": "אלקטרוניקה",
+    "course_type": "תרגול",
+    "group": "263015005/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר נמני יגאל",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להנדסת חשמל ואלקטרוניקה",
+        "alternative": "הנדסת חשמל 1"
+      },
+      {
+        "required": "אלקטרוניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30150",
+    "course_name": "אלקטרוניקה",
+    "course_type": "תרגול",
+    "group": "263015005/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר נמני יגאל",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להנדסת חשמל ואלקטרוניקה",
+        "alternative": "הנדסת חשמל 1"
+      },
+      {
+        "required": "אלקטרוניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20304",
+    "course_name": "אלקטרוניקה ספרתית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262030401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' ליבסטר אירנה",
+    "room": "115 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים1"
+      }
+    ],
+    "linked_courses": [
+      "262030401",
+      "262030401/1"
+    ]
+  },
+  {
+    "course_code": "20304",
+    "course_name": "אלקטרוניקה ספרתית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262030401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' ליבסטר אירנה",
+    "room": "115 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים1"
+      }
+    ],
+    "linked_courses": [
+      "262030401",
+      "262030401/1"
+    ]
+  },
+  {
+    "course_code": "20304",
+    "course_name": "אלקטרוניקה ספרתית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262030401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "19:00",
+    "end_time": "22:50",
+    "lecturer": "גב' ליבסטר אירנה",
+    "room": "115 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים1"
+      }
+    ],
+    "linked_courses": [
+      "262030401",
+      "262030401/1"
+    ]
+  },
+  {
+    "course_code": "20304",
+    "course_name": "אלקטרוניקה ספרתית",
+    "course_type": "תרגול",
+    "group": "262030401/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "גב' ליבסטר אירנה",
+    "room": "115 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים1"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20304",
+    "course_name": "אלקטרוניקה ספרתית",
+    "course_type": "תרגול",
+    "group": "262030401/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "גב' ליבסטר אירנה",
+    "room": "115 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים1"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20125",
+    "course_name": "אלקטרוניקה תקבילית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר שפט גבי",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הנדסת חשמל ב'",
+        "alternative": "הנדסת חשמל 2"
+      }
+    ],
+    "linked_courses": [
+      "262012501",
+      "262012501/1"
+    ]
+  },
+  {
+    "course_code": "20125",
+    "course_name": "אלקטרוניקה תקבילית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר שפט גבי",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הנדסת חשמל ב'",
+        "alternative": "הנדסת חשמל 2"
+      }
+    ],
+    "linked_courses": [
+      "262012501",
+      "262012501/1"
+    ]
+  },
+  {
+    "course_code": "20125",
+    "course_name": "אלקטרוניקה תקבילית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר שפט גבי",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הנדסת חשמל ב'",
+        "alternative": "הנדסת חשמל 2"
+      }
+    ],
+    "linked_courses": [
+      "262012501",
+      "262012501/1"
+    ]
+  },
+  {
+    "course_code": "20125",
+    "course_name": "אלקטרוניקה תקבילית",
+    "course_type": "תרגול",
+    "group": "262012501/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "09:50",
+    "lecturer": "ד\"ר שפט גבי",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הנדסת חשמל ב'",
+        "alternative": "הנדסת חשמל 2"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20125",
+    "course_name": "אלקטרוניקה תקבילית",
+    "course_type": "תרגול",
+    "group": "262012501/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "10:00",
+    "end_time": "11:50",
+    "lecturer": "ד\"ר שפט גבי",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הנדסת חשמל ב'",
+        "alternative": "הנדסת חשמל 2"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7203",
+    "course_name": "אנגלית - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720302",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "גב' גרוסו פאולה",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7203",
+    "course_name": "אנגלית - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720303",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "ד\"ר חריזמן קרן (אנה)",
+    "room": "עתידים 2304",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6001",
+    "course_name": "אנגלית בסיסי (מתחילים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר קרמה אלכסנדר",
+    "room": "מפ\"ט תמר",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית1 - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6001",
+    "course_name": "אנגלית בסיסי (מתחילים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר קרמה אלכסנדר",
+    "room": "מפ\"ט אתרוג",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית1 - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6001",
+    "course_name": "אנגלית בסיסי (מתחילים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר קרמה אלכסנדר",
+    "room": "מפ\"ט תמר",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית1 - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6001",
+    "course_name": "אנגלית בסיסי (מתחילים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "גב' גולדבלט ליבוביץ נעה",
+    "room": "מפ\"ט תמר",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית1 - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6001",
+    "course_name": "אנגלית בסיסי (מתחילים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "גב' גולדבלט ליבוביץ נעה",
+    "room": "מפ\"ט תמר",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית1 - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6001",
+    "course_name": "אנגלית בסיסי (מתחילים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "גב' גולדבלט ליבוביץ נעה",
+    "room": "מפ\"ט תמר",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "אנגלית טרום בסיסי (מכינה)",
+        "alternative": "אנגלית1 - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600208",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "12:00",
+    "end_time": "15:50",
+    "lecturer": "",
+    "room": "מפ\"ט זית",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600208",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "",
+    "room": "115 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600209",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "גב' וולפרט רחל",
+    "room": "מפ\"ט זית",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600209",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "גב' וולפרט רחל",
+    "room": "מפ\"ט זית",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600210",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר גפנר מריה",
+    "room": "מפ\"ט זית",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600210",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר גפנר מריה",
+    "room": "מפ\"ט זית",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600211",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "גב' גרוסו פאולה",
+    "room": "מפ\"ט זית",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6002",
+    "course_name": "אנגלית מתקדמים א' (בינוניים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600211",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "גב' גרוסו פאולה",
+    "room": "מפ\"ט זית",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית בסיסי (מתחילים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600312",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "10:00",
+    "end_time": "13:50",
+    "lecturer": "ד\"ר חריזמן קרן (אנה)",
+    "room": "מפ\"ט זית",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600312",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "10:00",
+    "end_time": "13:50",
+    "lecturer": "ד\"ר חריזמן קרן (אנה)",
+    "room": "מפ\"ט אתרוג",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600313",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "09:00",
+    "end_time": "12:50",
+    "lecturer": "גב' נסים רונלי",
+    "room": "מפ\"ט זית",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600313",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "09:00",
+    "end_time": "12:50",
+    "lecturer": "גב' נסים רונלי",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600314",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "09:00",
+    "end_time": "12:50",
+    "lecturer": "גב' נסים רונלי",
+    "room": "מפ\"ט אתרוג",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600314",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "09:00",
+    "end_time": "12:50",
+    "lecturer": "גב' נסים רונלי",
+    "room": "מפ\"ט אתרוג",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600315",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "12:00",
+    "end_time": "15:50",
+    "lecturer": "גב' מרקס אן",
+    "room": "מפ\"ט אתרוג",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600315",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "12:00",
+    "end_time": "15:50",
+    "lecturer": "גב' מרקס אן",
+    "room": "מפ\"ט זית",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600316",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "גב' מרקס אן",
+    "room": "מפ\"ט זית",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600316",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "גב' מרקס אן",
+    "room": "מפ\"ט אתרוג",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600317",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "גב' קלף לואיז",
+    "room": "מפ\"ט אתרוג",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "6003",
+    "course_name": "אנגלית מתקדמים ב' (מתקדמים)",
+    "course_type": "סופי-הרצאה",
+    "group": "260600317",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "גב' קלף לואיז",
+    "room": "מפ\"ט אתרוג",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90916",
+    "course_name": "אנליזה הרמונית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269091608",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר בן סימון גבריאל",
+    "room": "202 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269091608",
+      "269091608/1"
+    ]
+  },
+  {
+    "course_code": "90916",
+    "course_name": "אנליזה הרמונית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269091608",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר בן סימון גבריאל",
+    "room": "202 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269091608",
+      "269091608/1"
+    ]
+  },
+  {
+    "course_code": "90916",
+    "course_name": "אנליזה הרמונית",
+    "course_type": "תרגול",
+    "group": "269091608/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' נמירובסקי אירינה",
+    "room": "115 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90925",
+    "course_name": "אנליזה נומרית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092510",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר סעדון תפארת",
+    "room": "102 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269092510",
+      "269092510/1"
+    ]
+  },
+  {
+    "course_code": "90925",
+    "course_name": "אנליזה נומרית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092510",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "10:50",
+    "lecturer": "ד\"ר סעדון תפארת",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269092510",
+      "269092510/1"
+    ]
+  },
+  {
+    "course_code": "90925",
+    "course_name": "אנליזה נומרית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092511",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "21:50",
+    "lecturer": "פרופ' טל-עזר הלל",
+    "room": "102 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269092511",
+      "269092511/1"
+    ]
+  },
+  {
+    "course_code": "90925",
+    "course_name": "אנליזה נומרית",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092511",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "פרופ' טל-עזר הלל",
+    "room": "102 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269092511",
+      "269092511/1"
+    ]
+  },
+  {
+    "course_code": "90925",
+    "course_name": "אנליזה נומרית",
+    "course_type": "תרגול",
+    "group": "269092510/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר ריקס חיים",
+    "room": "102 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90925",
+    "course_name": "אנליזה נומרית",
+    "course_type": "תרגול",
+    "group": "269092511/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' נמירובסקי אירינה",
+    "room": "102 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי2",
+        "alternative": null
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80935",
+    "course_name": "אקזיסטנציאליזם: קריאה מודרכת",
+    "course_type": "סופי-הרצאה",
+    "group": "268093501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר שהם יקותיאל",
+    "room": "מפ\"ט תמר",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30130",
+    "course_name": "גרפיקה הנדסית 1",
+    "course_type": "סופי-הרצאה+מעבדה",
+    "group": "263013004",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": [
+      "263013004",
+      "263013004/1"
+    ]
+  },
+  {
+    "course_code": "30130",
+    "course_name": "גרפיקה הנדסית 1",
+    "course_type": "סופי-הרצאה+מעבדה",
+    "group": "263013004",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": [
+      "263013004",
+      "263013004/1"
+    ]
+  },
+  {
+    "course_code": "30130",
+    "course_name": "גרפיקה הנדסית 1",
+    "course_type": "מעבדה",
+    "group": "263013004/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30130",
+    "course_name": "גרפיקה הנדסית 1",
+    "course_type": "מעבדה",
+    "group": "263013004/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30131",
+    "course_name": "גרפיקה הנדסית 2",
+    "course_type": "סופי-הרצאה+מעבדה",
+    "group": "263013104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "201 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": [
+      "263013104",
+      "263013104/1"
+    ]
+  },
+  {
+    "course_code": "30131",
+    "course_name": "גרפיקה הנדסית 2",
+    "course_type": "סופי-הרצאה+מעבדה",
+    "group": "263013104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "201 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": [
+      "263013104",
+      "263013104/1"
+    ]
+  },
+  {
+    "course_code": "30131",
+    "course_name": "גרפיקה הנדסית 2",
+    "course_type": "מעבדה",
+    "group": "263013104/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "203 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30131",
+    "course_name": "גרפיקה הנדסית 2",
+    "course_type": "מעבדה",
+    "group": "263013104/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר זילברמן אילן",
+    "room": "203 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30247",
+    "course_name": "דינמיקה ובקרת כלי טייס",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263024701",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר מסאס רם",
+    "room": "102 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תורת הבקרה",
+        "alternative": "מבוא לבקרה"
+      },
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263024701",
+      "263024701/1"
+    ]
+  },
+  {
+    "course_code": "30247",
+    "course_name": "דינמיקה ובקרת כלי טייס",
+    "course_type": "תרגול",
+    "group": "263024701/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "12:00",
+    "end_time": "13:50",
+    "lecturer": "מר מסאס רם",
+    "room": "102 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תורת הבקרה",
+        "alternative": "מבוא לבקרה"
+      },
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80906",
+    "course_name": "היזמים ששינו את העולם",
+    "course_type": "סופי-הרצאה",
+    "group": "268090601",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "09:00",
+    "end_time": "12:50",
+    "lecturer": "ד\"ר כהן צמח ירון",
+    "room": "מפ\"ט רימון",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20381",
+    "course_name": "הינע חשמלי ואלקטרוני",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262038101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר מיטב נדה",
+    "room": "301 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ייצור והמרת אנרגיה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262038101",
+      "262038101/1"
+    ]
+  },
+  {
+    "course_code": "20381",
+    "course_name": "הינע חשמלי ואלקטרוני",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262038101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר מיטב נדה",
+    "room": "301 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ייצור והמרת אנרגיה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262038101",
+      "262038101/1"
+    ]
+  },
+  {
+    "course_code": "20381",
+    "course_name": "הינע חשמלי ואלקטרוני",
+    "course_type": "תרגול",
+    "group": "262038101/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר מיטב נדה",
+    "room": "301 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ייצור והמרת אנרגיה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20381",
+    "course_name": "הינע חשמלי ואלקטרוני",
+    "course_type": "תרגול",
+    "group": "262038101/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "ד\"ר מיטב נדה",
+    "room": "301 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ייצור והמרת אנרגיה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40246",
+    "course_name": "הנדסת נתונים מבוססי ענן",
+    "course_type": "סופי-הרצאה",
+    "group": "264024601",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "18:00",
+    "end_time": "20:50",
+    "lecturer": "מר קוך גדעון",
+    "room": "101 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "טכנולוגיות אינטרנט למערכות מידע",
+        "alternative": "טכנולוגיות אינטרנט למערכות מידע"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40246",
+    "course_name": "הנדסת נתונים מבוססי ענן",
+    "course_type": "סופי-הרצאה",
+    "group": "264024601",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר קוך גדעון",
+    "room": "101 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "טכנולוגיות אינטרנט למערכות מידע",
+        "alternative": "טכנולוגיות אינטרנט למערכות מידע"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40104",
+    "course_name": "הנדסת שיטות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264010405",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר בן יעקב יואב",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "מבוא להנדסת תעשייה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264010405",
+      "264010405/1"
+    ]
+  },
+  {
+    "course_code": "40104",
+    "course_name": "הנדסת שיטות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264010405",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר בן יעקב יואב",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "מבוא להנדסת תעשייה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264010405",
+      "264010405/1"
+    ]
+  },
+  {
+    "course_code": "40104",
+    "course_name": "הנדסת שיטות",
+    "course_type": "תרגול",
+    "group": "264010405/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר בן יעקב יואב",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "מבוא להנדסת תעשייה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40104",
+    "course_name": "הנדסת שיטות",
+    "course_type": "תרגול",
+    "group": "264010405/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר בן יעקב יואב",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "מבוא להנדסת תעשייה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20132",
+    "course_name": "התקני מוליכים למחצה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262013204",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "13:00",
+    "end_time": "16:50",
+    "lecturer": "ד\"ר אפרת אבישי",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": "פיזיקה מודרנית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": [
+      "262013204",
+      "262013204/1"
+    ]
+  },
+  {
+    "course_code": "20132",
+    "course_name": "התקני מוליכים למחצה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262013204",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "lecturer": "ד\"ר אפרת אבישי",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": "פיזיקה מודרנית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": [
+      "262013204",
+      "262013204/1"
+    ]
+  },
+  {
+    "course_code": "20132",
+    "course_name": "התקני מוליכים למחצה",
+    "course_type": "תרגול",
+    "group": "262013204/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר אפרת אבישי",
+    "room": "302 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' רגילות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": "פיזיקה מודרנית להנדסה רפואית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30221",
+    "course_name": "חלקי מכונות 1",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263022102",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "גב' זמיר (מרקמן) אלה",
+    "room": "251 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 1",
+        "alternative": null
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": [
+      "263022102",
+      "263022102/1"
+    ]
+  },
+  {
+    "course_code": "30221",
+    "course_name": "חלקי מכונות 1",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263022102",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "גב' זמיר (מרקמן) אלה",
+    "room": "251 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 1",
+        "alternative": null
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": [
+      "263022102",
+      "263022102/1"
+    ]
+  },
+  {
+    "course_code": "30221",
+    "course_name": "חלקי מכונות 1",
+    "course_type": "תרגול",
+    "group": "263022102/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "גב' זמיר (מרקמן) אלה",
+    "room": "251 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 1",
+        "alternative": null
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30221",
+    "course_name": "חלקי מכונות 1",
+    "course_type": "תרגול",
+    "group": "263022102/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "גב' זמיר (מרקמן) אלה",
+    "room": "251 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 1",
+        "alternative": null
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80968",
+    "course_name": "יזמות בבנייה למגורים",
+    "course_type": "סופי-הרצאה",
+    "group": "268096801",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר גינסבורג זאב",
+    "room": "קריה ה'4",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40114",
+    "course_name": "ייצור ממוחשב",
+    "course_type": "סופי-מעבדה",
+    "group": "264011409",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר רוש גרגורי",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40114",
+    "course_name": "ייצור ממוחשב",
+    "course_type": "סופי-מעבדה",
+    "group": "264011409",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר רוש גרגורי",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7204",
+    "course_name": "יסודות למדעי המחשב והנתונים - מכינה בדרך",
+    "course_type": "סופי-הרצאה",
+    "group": "260720401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "13:00",
+    "end_time": "16:50",
+    "lecturer": "מר בנגיאט עמית",
+    "room": "עתידים 2311",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7204",
+    "course_name": "יסודות למדעי המחשב והנתונים - מכינה בדרך",
+    "course_type": "סופי-הרצאה",
+    "group": "260720401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "08:00",
+    "end_time": "09:50",
+    "lecturer": "מר בנגיאט עמית",
+    "room": "עתידים 2305",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7204",
+    "course_name": "יסודות למדעי המחשב והנתונים - מכינה בדרך",
+    "course_type": "סופי-הרצאה",
+    "group": "260720401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "10:00",
+    "end_time": "11:50",
+    "lecturer": "מר כהן תום",
+    "room": "עתידים 2305",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7204",
+    "course_name": "יסודות למדעי המחשב והנתונים - מכינה בדרך",
+    "course_type": "סופי-הרצאה",
+    "group": "260720401",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "מר כהן תום",
+    "room": "עתידים 2307",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7015",
+    "course_name": "יסודות תכנות והחשיבה הלוגית",
+    "course_type": "סופי-הרצאה",
+    "group": "260701501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7015",
+    "course_name": "יסודות תכנות והחשיבה הלוגית",
+    "course_type": "סופי-הרצאה",
+    "group": "260701501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7015",
+    "course_name": "יסודות תכנות והחשיבה הלוגית",
+    "course_type": "סופי-הרצאה",
+    "group": "260701501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "",
+    "room": "עתידים 2316",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7015",
+    "course_name": "יסודות תכנות והחשיבה הלוגית",
+    "course_type": "סופי-הרצאה",
+    "group": "260701501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "",
+    "room": "עתידים 2316",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10142",
+    "course_name": "כלי פיתוח",
+    "course_type": "סופי-מעבדה",
+    "group": "261014203",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר רוטברג ליאור",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10142",
+    "course_name": "כלי פיתוח",
+    "course_type": "סופי-מעבדה",
+    "group": "261014203",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר רוטברג ליאור",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40266",
+    "course_name": "כלכלת מערכות מידע",
+    "course_type": "סופי-הרצאה",
+    "group": "264026601",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "ד\"ר זילברשלג שמעון",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא למערכות מידע",
+        "alternative": "מבוא למערכות מידע"
+      },
+      {
+        "required": "כלכלה הנדסית",
+        "alternative": "כלכלה הנדסית להנדסה מכנית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40266",
+    "course_name": "כלכלת מערכות מידע",
+    "course_type": "סופי-הרצאה",
+    "group": "264026601",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר זילברשלג שמעון",
+    "room": "102 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא למערכות מידע",
+        "alternative": "מבוא למערכות מידע"
+      },
+      {
+        "required": "כלכלה הנדסית",
+        "alternative": "כלכלה הנדסית להנדסה מכנית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40225",
+    "course_name": "כריית מידע",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264022505",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר שמטניק פבל",
+    "room": "208 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264022505",
+      "264022505/1"
+    ]
+  },
+  {
+    "course_code": "40225",
+    "course_name": "כריית מידע",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264022505",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר שמטניק פבל",
+    "room": "201 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264022505",
+      "264022505/1"
+    ]
+  },
+  {
+    "course_code": "40225",
+    "course_name": "כריית מידע",
+    "course_type": "תרגול",
+    "group": "264022505/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר שמטניק פבל",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80909",
+    "course_name": "כתיבה עסקית בסביבה טכנולוגית",
+    "course_type": "סופי-הרצאה",
+    "group": "268090901",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "מר כהן רן",
+    "room": "מפ\"ט יעד",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "8080",
+    "course_name": "לומדה למניעת הטרדה מינית-און ליין",
+    "course_type": "סופי-הרצאה",
+    "group": "260808003",
+    "scheduled": false,
+    "semester": null,
+    "day": null,
+    "start_time": null,
+    "end_time": null,
+    "lecturer": null,
+    "room": null,
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90911",
+    "course_name": "מבוא להסתברות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269091110",
+    "scheduled": false,
+    "semester": null,
+    "day": null,
+    "start_time": null,
+    "end_time": null,
+    "lecturer": null,
+    "room": null,
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי1",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269091110",
+      "269091110/1"
+    ]
+  },
+  {
+    "course_code": "90911",
+    "course_name": "מבוא להסתברות",
+    "course_type": "תרגול",
+    "group": "269091110/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "גב' יעקובוב רבקה",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי1",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20221",
+    "course_name": "מבוא לחישוב קוונטי",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262022101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "18:00",
+    "end_time": "20:50",
+    "lecturer": "מר ערו מוחמד",
+    "room": "101 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262022101",
+      "262022101/1"
+    ]
+  },
+  {
+    "course_code": "20221",
+    "course_name": "מבוא לחישוב קוונטי",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262022101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "14:00",
+    "end_time": "16:50",
+    "lecturer": "מר ערו מוחמד",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262022101",
+      "262022101/1"
+    ]
+  },
+  {
+    "course_code": "20221",
+    "course_name": "מבוא לחישוב קוונטי",
+    "course_type": "תרגול",
+    "group": "262022101/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "21:00",
+    "end_time": "21:50",
+    "lecturer": "מר ערו מוחמד",
+    "room": "101 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20221",
+    "course_name": "מבוא לחישוב קוונטי",
+    "course_type": "תרגול",
+    "group": "262022101/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "17:50",
+    "lecturer": "מר ערו מוחמד",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מערכות ספרתיות",
+        "alternative": "מערכות ספרתיות"
+      },
+      {
+        "required": "אלגברה ליניארית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה מודרנית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261001618",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "21:00",
+    "lecturer": "מר קרני ירדן",
+    "room": "202 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": [
+      "261001618",
+      "261001618/1"
+    ]
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261001618",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "מר קרני ירדן",
+    "room": "202 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": [
+      "261001618",
+      "261001618/1"
+    ]
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261001622",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "גב' גולד הדר",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": [
+      "261001622",
+      "261001622/1"
+    ]
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261001622",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "גב' גולד הדר",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": [
+      "261001622",
+      "261001622/1"
+    ]
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "תרגול",
+    "group": "261001618/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "21:00",
+    "lecturer": "מר קרני ירדן",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "תרגול",
+    "group": "261001618/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "מר קרני ירדן",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10016",
+    "course_name": "מבוא למדעי המחשב",
+    "course_type": "תרגול",
+    "group": "261001622/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "22:50",
+    "lecturer": "גב' גולד הדר",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40251",
+    "course_name": "מבוא למערכות המלצה",
+    "course_type": "סופי-הרצאה",
+    "group": "264025101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "10:50",
+    "lecturer": "ד\"ר כספי עומר",
+    "room": "203 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "ניתוח ותכנון מערכות מידע",
+        "alternative": "ניתוח ותכנון מערכות מידע"
+      },
+      {
+        "required": "מבוא למערכות המלצה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40251",
+    "course_name": "מבוא למערכות המלצה",
+    "course_type": "סופי-הרצאה",
+    "group": "264025101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "11:00",
+    "end_time": "13:50",
+    "lecturer": "ד\"ר כספי עומר",
+    "room": "203 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "ניתוח ותכנון מערכות מידע",
+        "alternative": "ניתוח ותכנון מערכות מידע"
+      },
+      {
+        "required": "מבוא למערכות המלצה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20332",
+    "course_name": "מבוא לעיבוד תמונה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262033202",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר טריגנו תום",
+    "room": "301 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      }
+    ],
+    "linked_courses": [
+      "262033202",
+      "262033202/1"
+    ]
+  },
+  {
+    "course_code": "20332",
+    "course_name": "מבוא לעיבוד תמונה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262033202",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר טריגנו תום",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      }
+    ],
+    "linked_courses": [
+      "262033202",
+      "262033202/1"
+    ]
+  },
+  {
+    "course_code": "20332",
+    "course_name": "מבוא לעיבוד תמונה",
+    "course_type": "תרגול",
+    "group": "262033202/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר טריגנו תום",
+    "room": "301 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20332",
+    "course_name": "מבוא לעיבוד תמונה",
+    "course_type": "תרגול",
+    "group": "262033202/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר טריגנו תום",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80960",
+    "course_name": "מבוא לפכ\"מ",
+    "course_type": "סופי-הרצאה",
+    "group": "268096001",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "עו\"ד ליואי עדי",
+    "room": "מפ\"ט גפן",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80947",
+    "course_name": "מבוא לשיטות מחקר",
+    "course_type": "סופי-הרצאה",
+    "group": "268094701",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "ד\"ר רוס גיא משה",
+    "room": "קריה ה'5",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20127",
+    "course_name": "מבוא לתהליכים אקראיים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012705",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "13:50",
+    "lecturer": "מר הדס ניסים",
+    "room": "208 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לאותות ומערכות",
+        "alternative": "מבוא לאותות ומערכות"
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262012705",
+      "262012705/1"
+    ]
+  },
+  {
+    "course_code": "20127",
+    "course_name": "מבוא לתהליכים אקראיים",
+    "course_type": "תרגול",
+    "group": "262012705/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "15:00",
+    "end_time": "16:50",
+    "lecturer": "מר הדס ניסים",
+    "room": "205 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לאותות ומערכות",
+        "alternative": "מבוא לאותות ומערכות"
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40134",
+    "course_name": "מבוא לתעשייה4.0",
+    "course_type": "סופי-הרצאה",
+    "group": "264013406",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר יניב שרית",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40134",
+    "course_name": "מבוא לתעשייה4.0",
+    "course_type": "סופי-הרצאה",
+    "group": "264013406",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר יניב שרית",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10117",
+    "course_name": "מבני נתונים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261011702",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר גנוט יצחק",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261011702",
+      "261011702/1"
+    ]
+  },
+  {
+    "course_code": "10117",
+    "course_name": "מבני נתונים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261011702",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר גנוט יצחק",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261011702",
+      "261011702/1"
+    ]
+  },
+  {
+    "course_code": "10117",
+    "course_name": "מבני נתונים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261011702",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר גנוט יצחק",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261011702",
+      "261011702/1"
+    ]
+  },
+  {
+    "course_code": "10117",
+    "course_name": "מבני נתונים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261011702",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר גנוט יצחק",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261011702",
+      "261011702/1"
+    ]
+  },
+  {
+    "course_code": "10117",
+    "course_name": "מבני נתונים",
+    "course_type": "תרגול",
+    "group": "261011702/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "20:00",
+    "lecturer": "מר גנוט יצחק",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10117",
+    "course_name": "מבני נתונים",
+    "course_type": "תרגול",
+    "group": "261011702/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "21:00",
+    "end_time": "21:50",
+    "lecturer": "מר גנוט יצחק",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא למדעי המחשב"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנות מונחה עצמים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30215",
+    "course_name": "מיזוג אוויר וחימום",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263021501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר מיטלמן גור",
+    "room": "203 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תרמודינמיקה 2",
+        "alternative": "תרמודינמיקה"
+      },
+      {
+        "required": "מעבר חום",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263021501",
+      "263021501/1"
+    ]
+  },
+  {
+    "course_code": "30215",
+    "course_name": "מיזוג אוויר וחימום",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263021501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר מיטלמן גור",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תרמודינמיקה 2",
+        "alternative": "תרמודינמיקה"
+      },
+      {
+        "required": "מעבר חום",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263021501",
+      "263021501/1"
+    ]
+  },
+  {
+    "course_code": "30215",
+    "course_name": "מיזוג אוויר וחימום",
+    "course_type": "תרגול",
+    "group": "263021501/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר מיטלמן גור",
+    "room": "203 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תרמודינמיקה 2",
+        "alternative": "תרמודינמיקה"
+      },
+      {
+        "required": "מעבר חום",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30215",
+    "course_name": "מיזוג אוויר וחימום",
+    "course_type": "תרגול",
+    "group": "263021501/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר מיטלמן גור",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תרמודינמיקה 2",
+        "alternative": "תרמודינמיקה"
+      },
+      {
+        "required": "מעבר חום",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012901",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר אברמוב בנימין",
+    "room": "354 מעב' אלקט'/תקשורת",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "262012901",
+      "262012901/1"
+    ]
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012901",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר אברמוב בנימין",
+    "room": "354 מעב' אלקט'/תקשורת",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "262012901",
+      "262012901/1"
+    ]
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012902",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "גב' מדינה דורית",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "262012902",
+      "262012902/1"
+    ]
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262012902",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "גב' מדינה דורית",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "262012902",
+      "262012902/1"
+    ]
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "תרגול",
+    "group": "262012901/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר אברמוב בנימין",
+    "room": "354 מעב' אלקט'/תקשורת",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "תרגול",
+    "group": "262012901/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר אברמוב בנימין",
+    "room": "354 מעב' אלקט'/תקשורת",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "תרגול",
+    "group": "262012902/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "גב' מדינה דורית",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20129",
+    "course_name": "מיקרו מעבדים ומיקרו בקרים",
+    "course_type": "תרגול",
+    "group": "262012902/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "גב' מדינה דורית",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות",
+        "alternative": "מבוא לתכנות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20367",
+    "course_name": "מעבדה לאלקטרוניקה ספרתית",
+    "course_type": "סופי-מעבדה",
+    "group": "262036709",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "08:00",
+    "end_time": "13:50",
+    "lecturer": "מר לבנת מיקי",
+    "room": "355 מעב' אותות/משובצות",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מעבדת מערכות ספרתיות",
+        "alternative": "מעבדת מערכות ספרתיות"
+      },
+      {
+        "required": "אלקטרוניקה ספרתית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20135",
+    "course_name": "מעבדת בקרה",
+    "course_type": "סופי-מעבדה",
+    "group": "262013501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "מר חצקלביץ רון חיים",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לבקרה",
+        "alternative": "תורת הבקרה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20135",
+    "course_name": "מעבדת בקרה",
+    "course_type": "סופי-מעבדה",
+    "group": "262013501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "מר חצקלביץ רון חיים",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לבקרה",
+        "alternative": "תורת הבקרה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20135",
+    "course_name": "מעבדת בקרה",
+    "course_type": "סופי-מעבדה",
+    "group": "262013502",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר מלמד יוסף",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לבקרה",
+        "alternative": "תורת הבקרה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20135",
+    "course_name": "מעבדת בקרה",
+    "course_type": "סופי-מעבדה",
+    "group": "262013502",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "מר מלמד יוסף",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לבקרה",
+        "alternative": "תורת הבקרה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20812",
+    "course_name": "מעבדת בקרים",
+    "course_type": "סופי-מעבדה",
+    "group": "262081207",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "מר מלמד יוסף",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אלקטרוניקה",
+        "alternative": "מעבדת חשמל ואלקטרוניקה"
+      },
+      {
+        "required": "תורת הבקרה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20812",
+    "course_name": "מעבדת בקרים",
+    "course_type": "סופי-מעבדה",
+    "group": "262081207",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר מלמד יוסף",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אלקטרוניקה",
+        "alternative": "מעבדת חשמל ואלקטרוניקה"
+      },
+      {
+        "required": "תורת הבקרה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20812",
+    "course_name": "מעבדת בקרים",
+    "course_type": "סופי-מעבדה",
+    "group": "262081208",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר גבאי יוסף",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אלקטרוניקה",
+        "alternative": "מעבדת חשמל ואלקטרוניקה"
+      },
+      {
+        "required": "תורת הבקרה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20812",
+    "course_name": "מעבדת בקרים",
+    "course_type": "סופי-מעבדה",
+    "group": "262081208",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "מר גבאי יוסף",
+    "room": "052 מעב' אלקט'/בקרים/רובוטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אלקטרוניקה",
+        "alternative": "מעבדת חשמל ואלקטרוניקה"
+      },
+      {
+        "required": "תורת הבקרה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90918",
+    "course_name": "מעבדת פיזיקה מכניקה",
+    "course_type": "סופי-מעבדה",
+    "group": "269091813",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר חסנוב אולג",
+    "room": "002 מעב' פיזיקה ואופטיקה",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90918",
+    "course_name": "מעבדת פיזיקה מכניקה",
+    "course_type": "סופי-מעבדה",
+    "group": "269091813",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "מר חסנוב אולג",
+    "room": "002 מעב' פיזיקה ואופטיקה",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90918",
+    "course_name": "מעבדת פיזיקה מכניקה",
+    "course_type": "סופי-מעבדה",
+    "group": "269091814",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר חסנוב אולג",
+    "room": "002 מעב' פיזיקה ואופטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90918",
+    "course_name": "מעבדת פיזיקה מכניקה",
+    "course_type": "סופי-מעבדה",
+    "group": "269091814",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "מר חסנוב אולג",
+    "room": "002 מעב' פיזיקה ואופטיקה",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30163",
+    "course_name": "מעבדת תהליכי ייצור",
+    "course_type": "סופי-מעבדה",
+    "group": "263016309",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר נסאר עודאי",
+    "room": "004 מעב'-זרימה/מ.חום/מדידות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      },
+      {
+        "required": "גרפיקה הנדסית 2",
+        "alternative": null
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      },
+      {
+        "required": "תהליכי ייצור",
+        "alternative": "תהליכי ייצור"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30163",
+    "course_name": "מעבדת תהליכי ייצור",
+    "course_type": "סופי-מעבדה",
+    "group": "263016309",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר נסאר עודאי",
+    "room": "004 מעב'-זרימה/מ.חום/מדידות",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      },
+      {
+        "required": "גרפיקה הנדסית 2",
+        "alternative": null
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      },
+      {
+        "required": "תהליכי ייצור",
+        "alternative": "תהליכי ייצור"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10303",
+    "course_name": "מערכות הפעלה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261030301",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות מערכות",
+        "alternative": null
+      },
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "261030301",
+      "261030301/1"
+    ]
+  },
+  {
+    "course_code": "10303",
+    "course_name": "מערכות הפעלה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261030301",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות מערכות",
+        "alternative": null
+      },
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "261030301",
+      "261030301/1"
+    ]
+  },
+  {
+    "course_code": "10303",
+    "course_name": "מערכות הפעלה",
+    "course_type": "תרגול",
+    "group": "261030301/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות מערכות",
+        "alternative": null
+      },
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10303",
+    "course_name": "מערכות הפעלה",
+    "course_type": "תרגול",
+    "group": "261030301/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "קריה ה'11 מעב דואלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מבוא לתכנות מערכות",
+        "alternative": null
+      },
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40270",
+    "course_name": "מערכות מידע לתכנון תחבורה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264027001",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר בירפיר גנאדי",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      }
+    ],
+    "linked_courses": [
+      "264027001",
+      "264027001/1"
+    ]
+  },
+  {
+    "course_code": "40270",
+    "course_name": "מערכות מידע לתכנון תחבורה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264027001",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר בירפיר גנאדי",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      }
+    ],
+    "linked_courses": [
+      "264027001",
+      "264027001/1"
+    ]
+  },
+  {
+    "course_code": "40270",
+    "course_name": "מערכות מידע לתכנון תחבורה",
+    "course_type": "תרגול",
+    "group": "264027001/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר בירפיר גנאדי",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40270",
+    "course_name": "מערכות מידע לתכנון תחבורה",
+    "course_type": "תרגול",
+    "group": "264027001/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר בירפיר גנאדי",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30339",
+    "course_name": "מערכות ממוחשבות ברכב",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263033901",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "14:00",
+    "end_time": "15:50",
+    "lecturer": "",
+    "room": "מחוץ למכללה",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": [
+      "263033901",
+      "263033901/1"
+    ]
+  },
+  {
+    "course_code": "30339",
+    "course_name": "מערכות ממוחשבות ברכב",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263033901",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "16:00",
+    "end_time": "17:50",
+    "lecturer": "",
+    "room": "מחוץ למכללה",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": [
+      "263033901",
+      "263033901/1"
+    ]
+  },
+  {
+    "course_code": "30339",
+    "course_name": "מערכות ממוחשבות ברכב",
+    "course_type": "תרגול",
+    "group": "263033901/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "18:00",
+    "end_time": "19:50",
+    "lecturer": "",
+    "room": "מחוץ למכללה",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720203",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "גב' נגר איריס",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720203",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' נגר איריס",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720204",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "גב' גניסלב אסנת",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720204",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "13:00",
+    "end_time": "16:50",
+    "lecturer": "גב' נמירובסקי אירינה",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720204",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "גב' גניסלב אסנת",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720205",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' בילצ'ינסקי דינה",
+    "room": "עתידים 2304",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720205",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "גב' בילצ'ינסקי דינה",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720205",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' בילצ'ינסקי דינה",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720206",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "14:00",
+    "end_time": "18:50",
+    "lecturer": "גב' עזרא גלית",
+    "room": "עתידים 2311",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720206",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' עזרא גלית",
+    "room": "עתידים 2304",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720206",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' עזרא גלית",
+    "room": "עתידים 2316",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720207",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר כרמון שי",
+    "room": "עתידים 2311",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720207",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "מר כרמון שי",
+    "room": "עתידים 2313",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7202",
+    "course_name": "מתמטיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720207",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר כרמון שי",
+    "room": "עתידים 2304",
+    "status": "מלא",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90926",
+    "course_name": "מתמטיקה בדידה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092607",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "",
+    "room": "קריה ה'7",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": [
+      "269092607",
+      "269092607/1"
+    ]
+  },
+  {
+    "course_code": "90926",
+    "course_name": "מתמטיקה בדידה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092607",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "",
+    "room": "קריה ג'6",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": [
+      "269092607",
+      "269092607/1"
+    ]
+  },
+  {
+    "course_code": "90926",
+    "course_name": "מתמטיקה בדידה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269092607",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "",
+    "room": "קריה  ה'9",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": [
+      "269092607",
+      "269092607/1"
+    ]
+  },
+  {
+    "course_code": "90926",
+    "course_name": "מתמטיקה בדידה",
+    "course_type": "תרגול",
+    "group": "269092607/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר ויינר בועז",
+    "room": "קריה ג'6",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90926",
+    "course_name": "מתמטיקה בדידה",
+    "course_type": "תרגול",
+    "group": "269092607/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר ויינר בועז",
+    "room": "קריה ה'5",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20360",
+    "course_name": "מתקני מתח נמוך",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262036001",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר אביטבול יעקב",
+    "room": "207 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות הספק א'",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262036001",
+      "262036001/1"
+    ]
+  },
+  {
+    "course_code": "20360",
+    "course_name": "מתקני מתח נמוך",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "262036001",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "מר אביטבול יעקב",
+    "room": "207 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות הספק א'",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "262036001",
+      "262036001/1"
+    ]
+  },
+  {
+    "course_code": "20360",
+    "course_name": "מתקני מתח נמוך",
+    "course_type": "תרגול",
+    "group": "262036001/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "מר אביטבול יעקב",
+    "room": "207 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות הספק א'",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20360",
+    "course_name": "מתקני מתח נמוך",
+    "course_type": "תרגול",
+    "group": "262036001/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "22:00",
+    "end_time": "22:50",
+    "lecturer": "מר אביטבול יעקב",
+    "room": "207 פיקוס",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מערכות הספק א'",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40257",
+    "course_name": "נושאים מתקדמים בבסיסי נתונים",
+    "course_type": "סופי-הרצאה",
+    "group": "264025704",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "ד\"ר פרי עומר",
+    "room": "201 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40257",
+    "course_name": "נושאים מתקדמים בבסיסי נתונים",
+    "course_type": "סופי-הרצאה",
+    "group": "264025704",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "22:50",
+    "lecturer": "ד\"ר פרי עומר",
+    "room": "204 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40258",
+    "course_name": "ניהול אג'יל של פרויקט סייבר",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264025801",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר קוך גדעון",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "טכנולוגיות אינטרנט למערכות מידע",
+        "alternative": "טכנולוגיות אינטרנט למערכות מידע"
+      }
+    ],
+    "linked_courses": [
+      "264025801",
+      "264025801/1"
+    ]
+  },
+  {
+    "course_code": "40258",
+    "course_name": "ניהול אג'יל של פרויקט סייבר",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264025801",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר קוך גדעון",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "טכנולוגיות אינטרנט למערכות מידע",
+        "alternative": "טכנולוגיות אינטרנט למערכות מידע"
+      }
+    ],
+    "linked_courses": [
+      "264025801",
+      "264025801/1"
+    ]
+  },
+  {
+    "course_code": "40258",
+    "course_name": "ניהול אג'יל של פרויקט סייבר",
+    "course_type": "תרגול",
+    "group": "264025801/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "מר קוך גדעון",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "טכנולוגיות אינטרנט למערכות מידע",
+        "alternative": "טכנולוגיות אינטרנט למערכות מידע"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40258",
+    "course_name": "ניהול אג'יל של פרויקט סייבר",
+    "course_type": "תרגול",
+    "group": "264025801/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "מר קוך גדעון",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "טכנולוגיות אינטרנט למערכות מידע",
+        "alternative": "טכנולוגיות אינטרנט למערכות מידע"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40133",
+    "course_name": "ניהול התפעול2",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264013304",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר וולף רון",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "מבוא לחקר ביצועים",
+        "alternative": null
+      },
+      {
+        "required": "ניהול התפעול1",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264013304",
+      "264013304/1"
+    ]
+  },
+  {
+    "course_code": "40133",
+    "course_name": "ניהול התפעול2",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264013304",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר וולף רון",
+    "room": "302 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "מבוא לחקר ביצועים",
+        "alternative": null
+      },
+      {
+        "required": "ניהול התפעול1",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264013304",
+      "264013304/1"
+    ]
+  },
+  {
+    "course_code": "40133",
+    "course_name": "ניהול התפעול2",
+    "course_type": "תרגול",
+    "group": "264013304/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר וולף רון",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לחקר ביצועים",
+        "alternative": null
+      },
+      {
+        "required": "ניהול התפעול1",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40133",
+    "course_name": "ניהול התפעול2",
+    "course_type": "תרגול",
+    "group": "264013304/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר וולף רון",
+    "room": "302 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לחקר ביצועים",
+        "alternative": null
+      },
+      {
+        "required": "ניהול התפעול1",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40235",
+    "course_name": "ניתוח נתונים בשפת R",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264023502",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר שמטניק פבל",
+    "room": "103 מעב' דואלי פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "שיטות סטטיסטיות בניתוח נתונים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264023502",
+      "264023502/1"
+    ]
+  },
+  {
+    "course_code": "40235",
+    "course_name": "ניתוח נתונים בשפת R",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "264023502",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "09:50",
+    "lecturer": "מר שמטניק פבל",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "שיטות סטטיסטיות בניתוח נתונים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "264023502",
+      "264023502/1"
+    ]
+  },
+  {
+    "course_code": "40235",
+    "course_name": "ניתוח נתונים בשפת R",
+    "course_type": "תרגול",
+    "group": "264023502/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "10:00",
+    "end_time": "11:50",
+    "lecturer": "מר שמטניק פבל",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "סטטיסטיקה"
+      },
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": "הסקה סטטיסטית"
+      },
+      {
+        "required": "שיטות סטטיסטיות בניתוח נתונים",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10237",
+    "course_name": "ניתוח רשתות חברתיות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261023702",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר מן מיכאל",
+    "room": "200 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261023702",
+      "261023702/1"
+    ]
+  },
+  {
+    "course_code": "10237",
+    "course_name": "ניתוח רשתות חברתיות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261023702",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר מן מיכאל",
+    "room": "200 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "261023702",
+      "261023702/1"
+    ]
+  },
+  {
+    "course_code": "10237",
+    "course_name": "ניתוח רשתות חברתיות",
+    "course_type": "תרגול",
+    "group": "261023702/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר מן מיכאל",
+    "room": "200 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10237",
+    "course_name": "ניתוח רשתות חברתיות",
+    "course_type": "תרגול",
+    "group": "261023702/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "22:00",
+    "end_time": "22:50",
+    "lecturer": "ד\"ר מן מיכאל",
+    "room": "200 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "הסקה סטטיסטית",
+        "alternative": null
+      },
+      {
+        "required": "מבוא להסתברות",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40265",
+    "course_name": "סוגיות אתיות במערכות מידע",
+    "course_type": "סופי-הרצאה",
+    "group": "264026501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר זילברשלג שמעון",
+    "room": "302 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "מבוא למערכות מידע",
+        "alternative": "מבוא למערכות מידע"
+      },
+      {
+        "required": "ארגונים בעידן הדיגיטלי",
+        "alternative": "ארגונים בעידן הדיגיטלי"
+      },
+      {
+        "required": "ארגונים בעידן הדיגיטלי",
+        "alternative": "התנהגות ארגונית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "40265",
+    "course_name": "סוגיות אתיות במערכות מידע",
+    "course_type": "סופי-הרצאה",
+    "group": "264026501",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר זילברשלג שמעון",
+    "room": "302 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "מבוא למערכות מידע",
+        "alternative": "מבוא למערכות מידע"
+      },
+      {
+        "required": "ארגונים בעידן הדיגיטלי",
+        "alternative": "ארגונים בעידן הדיגיטלי"
+      },
+      {
+        "required": "ארגונים בעידן הדיגיטלי",
+        "alternative": "התנהגות ארגונית"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30135",
+    "course_name": "סטטיקה של גוף קשיח",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263013504",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר אלבוחר אורי",
+    "room": "102 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי1",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263013504",
+      "263013504/1"
+    ]
+  },
+  {
+    "course_code": "30135",
+    "course_name": "סטטיקה של גוף קשיח",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263013504",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר אלבוחר אורי",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי1",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263013504",
+      "263013504/1"
+    ]
+  },
+  {
+    "course_code": "30135",
+    "course_name": "סטטיקה של גוף קשיח",
+    "course_type": "תרגול",
+    "group": "263013504/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר אלבוחר אורי",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      },
+      {
+        "required": "חשבון דיפרנציאלי אינטגרלי1",
+        "alternative": null
+      },
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30327",
+    "course_name": "עיצוב תעשייתי",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263032701",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "09:50",
+    "lecturer": "מר אליעזר נמרוד ז'ק",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תיב\"ם",
+        "alternative": "תיב\"ם"
+      }
+    ],
+    "linked_courses": [
+      "263032701",
+      "263032701/1"
+    ]
+  },
+  {
+    "course_code": "30327",
+    "course_name": "עיצוב תעשייתי",
+    "course_type": "תרגול",
+    "group": "263032701/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "10:00",
+    "end_time": "11:50",
+    "lecturer": "מר אליעזר נמרוד ז'ק",
+    "room": "202 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תיב\"ם",
+        "alternative": "תיב\"ם"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90903",
+    "course_name": "פיזיקה-מכניקה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269090311",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר סמוליק אלה",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": [
+      "269090311",
+      "269090311/1"
+    ]
+  },
+  {
+    "course_code": "90903",
+    "course_name": "פיזיקה-מכניקה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269090311",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "16:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר סמוליק אלה",
+    "room": "205 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": [
+      "269090311",
+      "269090311/1"
+    ]
+  },
+  {
+    "course_code": "90903",
+    "course_name": "פיזיקה-מכניקה",
+    "course_type": "תרגול",
+    "group": "269090311/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "10:00",
+    "end_time": "11:50",
+    "lecturer": "מר רוזנבלום לוי",
+    "room": "101 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90903",
+    "course_name": "פיזיקה-מכניקה",
+    "course_type": "תרגול",
+    "group": "269090311/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "13:00",
+    "end_time": "14:50",
+    "lecturer": "מר רוזנבלום לוי",
+    "room": "101 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "קורס הכנה פיזיקה",
+        "alternative": "פיזיקה - מכינה בדרך לאפקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720103",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "מר ויס ירון",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720103",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "11:00",
+    "end_time": "12:50",
+    "lecturer": "מר ויס ירון",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "13:00",
+    "end_time": "15:50",
+    "lecturer": "מר אבישר עמיחי",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "מר אבישר עמיחי",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720104",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "13:00",
+    "end_time": "15:50",
+    "lecturer": "מר אבישר עמיחי",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "מר בסרגליק דניאל",
+    "room": "עתידים 2305",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "13:00",
+    "end_time": "16:50",
+    "lecturer": "מר בסרגליק דניאל",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "מר בסרגליק דניאל",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720106",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר גורדין גריגורי",
+    "room": "עתידים 2305",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720106",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "מר גורדין גריגורי",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7201",
+    "course_name": "פיזיקה - מכינה בדרך לאפקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260720106",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "14:00",
+    "end_time": "17:50",
+    "lecturer": "מר גורדין גריגורי",
+    "room": "עתידים 2317",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90904",
+    "course_name": "פיזיקה חשמל ומגנטיות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269090407",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר עצמון ישעיהו",
+    "room": "205 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269090407",
+      "269090407/1"
+    ]
+  },
+  {
+    "course_code": "90904",
+    "course_name": "פיזיקה חשמל ומגנטיות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269090407",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר עצמון ישעיהו",
+    "room": "205 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269090407",
+      "269090407/1"
+    ]
+  },
+  {
+    "course_code": "90904",
+    "course_name": "פיזיקה חשמל ומגנטיות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269090407",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "ד\"ר עצמון ישעיהו",
+    "room": "205 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "269090407",
+      "269090407/1"
+    ]
+  },
+  {
+    "course_code": "90904",
+    "course_name": "פיזיקה חשמל ומגנטיות",
+    "course_type": "תרגול",
+    "group": "269090407/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר חסנוב אולג",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90904",
+    "course_name": "פיזיקה חשמל ומגנטיות",
+    "course_type": "תרגול",
+    "group": "269090407/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר חסנוב אולג",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה-מכניקה",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "90939",
+    "course_name": "פיזיקה2 לתעו\"נ",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269093905",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר עצמון ישעיהו",
+    "room": "302 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה1 לתעו\"נ",
+        "alternative": "פיזיקה-מכניקה"
+      }
+    ],
+    "linked_courses": [
+      "269093905",
+      "269093905/1"
+    ]
+  },
+  {
+    "course_code": "90939",
+    "course_name": "פיזיקה2 לתעו\"נ",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "269093905",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר עצמון ישעיהו",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה1 לתעו\"נ",
+        "alternative": "פיזיקה-מכניקה"
+      }
+    ],
+    "linked_courses": [
+      "269093905",
+      "269093905/1"
+    ]
+  },
+  {
+    "course_code": "90939",
+    "course_name": "פיזיקה2 לתעו\"נ",
+    "course_type": "תרגול",
+    "group": "269093905/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר עצמון ישעיהו",
+    "room": "302 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "פיזיקה1 לתעו\"נ",
+        "alternative": "פיזיקה-מכניקה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20411",
+    "course_name": "פרויקט גמר חלק א'",
+    "course_type": "סופי-הרצאה",
+    "group": "262041101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר עמר ניסים",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לתקשורת",
+        "alternative": null
+      },
+      {
+        "required": "מבוא לבקרה",
+        "alternative": null
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים2"
+      },
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      },
+      {
+        "required": "אלקטרוניקה ספרתית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20411",
+    "course_name": "פרויקט גמר חלק א'",
+    "course_type": "סופי-הרצאה",
+    "group": "262041101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר עמר ניסים",
+    "room": "201 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לתקשורת",
+        "alternative": null
+      },
+      {
+        "required": "מבוא לבקרה",
+        "alternative": null
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים2"
+      },
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      },
+      {
+        "required": "אלקטרוניקה ספרתית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20411",
+    "course_name": "פרויקט גמר חלק א'",
+    "course_type": "סופי-הרצאה",
+    "group": "262041105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר עמר ניסים",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לתקשורת",
+        "alternative": null
+      },
+      {
+        "required": "מבוא לבקרה",
+        "alternative": null
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים2"
+      },
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      },
+      {
+        "required": "אלקטרוניקה ספרתית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "20411",
+    "course_name": "פרויקט גמר חלק א'",
+    "course_type": "סופי-הרצאה",
+    "group": "262041105",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר עמר ניסים",
+    "room": "207 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא לתקשורת",
+        "alternative": null
+      },
+      {
+        "required": "מבוא לבקרה",
+        "alternative": null
+      },
+      {
+        "required": "אלקטרוניקה תקבילית",
+        "alternative": "מעגלים אלקטרוניים אנלוגיים2"
+      },
+      {
+        "required": "מבוא לעיבוד ספרתי של אותות",
+        "alternative": "מבוא לעיבוד ספרתי של אותות"
+      },
+      {
+        "required": "מבנה מחשבים",
+        "alternative": "ארגון המחשב ושפת סף"
+      },
+      {
+        "required": "אלקטרוניקה ספרתית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10411",
+    "course_name": "פרויקט גמר חלק א'",
+    "course_type": "סופי-הרצאה",
+    "group": "261041101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "מר איסקוב גיא",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תיכון מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנון וניתוח אלגוריתמים",
+        "alternative": "אלגוריתמים ומבנה נתונים להנדסת חשמל"
+      },
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי ומחסני נתונים"
+      },
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      },
+      {
+        "required": "אימות תוכנה",
+        "alternative": "פיזיקה חשמל ומגנטיות"
+      },
+      {
+        "required": "מידול מערכות תכנה",
+        "alternative": "שיטות בהנדסת תוכנה"
+      },
+      {
+        "required": "ארכיטקטורת מערכות  תוכנה",
+        "alternative": "שיטות בהנדסת תוכנה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10411",
+    "course_name": "פרויקט גמר חלק א'",
+    "course_type": "סופי-הרצאה",
+    "group": "261041101",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "מר איסקוב גיא",
+    "room": "ז'2 קריה - עגלת תחשבים",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "תיכון מונחה עצמים",
+        "alternative": null
+      },
+      {
+        "required": "תכנון וניתוח אלגוריתמים",
+        "alternative": "אלגוריתמים ומבנה נתונים להנדסת חשמל"
+      },
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי ומחסני נתונים"
+      },
+      {
+        "required": "בסיסי נתונים",
+        "alternative": "בסיסי נתונים"
+      },
+      {
+        "required": "אימות תוכנה",
+        "alternative": "פיזיקה חשמל ומגנטיות"
+      },
+      {
+        "required": "מידול מערכות תכנה",
+        "alternative": "שיטות בהנדסת תוכנה"
+      },
+      {
+        "required": "ארכיטקטורת מערכות  תוכנה",
+        "alternative": "שיטות בהנדסת תוכנה"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10334",
+    "course_name": "קומפילציה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261033408",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר גוטנר שי",
+    "room": "קריה ה'7",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מודלים חישוביים",
+        "alternative": "מודלים חישוביים"
+      }
+    ],
+    "linked_courses": [
+      "261033408",
+      "261033408/1"
+    ]
+  },
+  {
+    "course_code": "10334",
+    "course_name": "קומפילציה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261033408",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר גוטנר שי",
+    "room": "קריה ה'7",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מודלים חישוביים",
+        "alternative": "מודלים חישוביים"
+      }
+    ],
+    "linked_courses": [
+      "261033408",
+      "261033408/1"
+    ]
+  },
+  {
+    "course_code": "10334",
+    "course_name": "קומפילציה",
+    "course_type": "תרגול",
+    "group": "261033408/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר גוטנר שי",
+    "room": "קריה ה'7",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מודלים חישוביים",
+        "alternative": "מודלים חישוביים"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10334",
+    "course_name": "קומפילציה",
+    "course_type": "תרגול",
+    "group": "261033408/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר גוטנר שי",
+    "room": "קריה ה'7",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "מודלים חישוביים",
+        "alternative": "מודלים חישוביים"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "147",
+    "course_name": "קורס 1 דמי בדיקות אתי תומקס",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "260014705",
+    "scheduled": false,
+    "semester": null,
+    "day": null,
+    "start_time": null,
+    "end_time": null,
+    "lecturer": null,
+    "room": null,
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7013",
+    "course_name": "קורס הכנה מתמטיקה - רענון",
+    "course_type": "סופי-הרצאה",
+    "group": "260701302",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר כהן יונתן",
+    "room": "עתידים 2316",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7013",
+    "course_name": "קורס הכנה מתמטיקה - רענון",
+    "course_type": "סופי-הרצאה",
+    "group": "260701302",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר כהן יונתן",
+    "room": "עתידים 2305",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7013",
+    "course_name": "קורס הכנה מתמטיקה - רענון",
+    "course_type": "סופי-הרצאה",
+    "group": "260701302",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר כהן יונתן",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7012",
+    "course_name": "קורס הכנה מתמטיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701201",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "גב' גרינשטיין נטליה",
+    "room": "עתידים 2304",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7012",
+    "course_name": "קורס הכנה מתמטיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701201",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "גב' גרינשטיין נטליה",
+    "room": "עתידים 2314",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7012",
+    "course_name": "קורס הכנה מתמטיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701201",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' גרינשטיין נטליה",
+    "room": "עתידים 2304",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701407",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "מר אמבר עמית אדם",
+    "room": "עתידים 2304",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701407",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "21:50",
+    "lecturer": "מר אמבר עמית אדם",
+    "room": "עתידים 2304",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701408",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר אלקיים רמי",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701408",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר אלקיים רמי",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701409",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' בלובשטיין הראל אילנה",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701409",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' בלובשטיין הראל אילנה",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701409",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' בלובשטיין הראל אילנה",
+    "room": "עתידים 2305",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701410",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' אליהו דנה",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701410",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' אליהו דנה",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701410",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "גב' אליהו דנה",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701411",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר לניאדו דוד",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701411",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר לניאדו דוד",
+    "room": "עתידים 2316",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701411",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר לניאדו דוד",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701413",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר שפירא יובל",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701413",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר שפירא יובל",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701413",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר שפירא יובל",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701413",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר שפירא יובל",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701413",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "08:00",
+    "end_time": "12:50",
+    "lecturer": "מר שפירא יובל",
+    "room": "עתידים 2315",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701414",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "מר אולבינסקי אלכסנדר",
+    "room": "עתידים 2313",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701414",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "מר אולבינסקי אלכסנדר",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701414",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "מר אולבינסקי אלכסנדר",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701414",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "מר אולבינסקי אלכסנדר",
+    "room": "עתידים 2307",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "7014",
+    "course_name": "קורס הכנה פיזיקה",
+    "course_type": "סופי-הרצאה",
+    "group": "260701414",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ה",
+    "start_time": "13:00",
+    "end_time": "17:50",
+    "lecturer": "מר אולבינסקי אלכסנדר",
+    "room": "עתידים 2305",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "148",
+    "course_name": "קורס1 דמי לבדיקות",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "260014803",
+    "scheduled": false,
+    "semester": null,
+    "day": null,
+    "start_time": null,
+    "end_time": null,
+    "lecturer": null,
+    "room": null,
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30235",
+    "course_name": "שיטות חישוביות וסימולציות ממוחשבות במכני",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263023502",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר אלבוחר אורי",
+    "room": "203 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 2",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' חלקיות",
+        "alternative": null
+      },
+      {
+        "required": "אנליזה נומרית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263023502",
+      "263023502/1"
+    ]
+  },
+  {
+    "course_code": "30235",
+    "course_name": "שיטות חישוביות וסימולציות ממוחשבות במכני",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263023502",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר אלבוחר אורי",
+    "room": "203 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 2",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' חלקיות",
+        "alternative": null
+      },
+      {
+        "required": "אנליזה נומרית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": [
+      "263023502",
+      "263023502/1"
+    ]
+  },
+  {
+    "course_code": "30235",
+    "course_name": "שיטות חישוביות וסימולציות ממוחשבות במכני",
+    "course_type": "תרגול",
+    "group": "263023502/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "21:50",
+    "lecturer": "ד\"ר אלבוחר אורי",
+    "room": "102 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "חוזק חומרים 2",
+        "alternative": null
+      },
+      {
+        "required": "משוואות דיפ' חלקיות",
+        "alternative": null
+      },
+      {
+        "required": "אנליזה נומרית",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "30164",
+    "course_name": "תהליכי ייצור",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263016405",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "ד\"ר שמואל רחל",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": [
+      "263016405",
+      "263016405/1"
+    ]
+  },
+  {
+    "course_code": "30164",
+    "course_name": "תהליכי ייצור",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "263016405",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ו",
+    "start_time": "11:00",
+    "end_time": "12:50",
+    "lecturer": "ד\"ר שמואל רחל",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": [
+      "263016405",
+      "263016405/1"
+    ]
+  },
+  {
+    "course_code": "30164",
+    "course_name": "תהליכי ייצור",
+    "course_type": "תרגול",
+    "group": "263016405/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר שמואל רחל",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "מלא",
+    "prerequisites": [
+      {
+        "required": "גרפיקה הנדסית 1",
+        "alternative": "גרפיקה הנדסית להנדסה רפואית"
+      },
+      {
+        "required": "תורת החומרים",
+        "alternative": "תורת החומרים 1"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10807",
+    "course_name": "תכנות ותיכון מונחה עצמים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261080705",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "",
+    "room": "115 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      }
+    ],
+    "linked_courses": [
+      "261080705",
+      "261080705/1"
+    ]
+  },
+  {
+    "course_code": "10807",
+    "course_name": "תכנות ותיכון מונחה עצמים",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261080705",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "17:00",
+    "end_time": "18:50",
+    "lecturer": "",
+    "room": "204 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      }
+    ],
+    "linked_courses": [
+      "261080705",
+      "261080705/1"
+    ]
+  },
+  {
+    "course_code": "10807",
+    "course_name": "תכנות ותיכון מונחה עצמים",
+    "course_type": "תרגול",
+    "group": "261080705/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "19:00",
+    "end_time": "20:50",
+    "lecturer": "",
+    "room": "115 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      },
+      {
+        "required": "מבוא למדעי המחשב",
+        "alternative": "מבוא לתכנות פיתון"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10013",
+    "course_name": "תקשורת מחשבים לתוכנה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261001320",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "208 פיקוס",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "261001320",
+      "261001320/1"
+    ]
+  },
+  {
+    "course_code": "10013",
+    "course_name": "תקשורת מחשבים לתוכנה",
+    "course_type": "סופי-הרצאה+תרגול",
+    "group": "261001320",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "17:00",
+    "end_time": "19:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "055  פרונטלי בניין מעבדות",
+    "status": "רשימת המתנה",
+    "prerequisites": [
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "261001320",
+      "261001320/1"
+    ]
+  },
+  {
+    "course_code": "10013",
+    "course_name": "תקשורת מחשבים לתוכנה",
+    "course_type": "מעבדה",
+    "group": "261001321",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "21:00",
+    "end_time": "22:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "114-פיקוס סיסקו וגם פרונטלי",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": []
+  },
+  {
+    "course_code": "10013",
+    "course_name": "תקשורת מחשבים לתוכנה",
+    "course_type": "תרגול",
+    "group": "261001320/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "208 פיקוס",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "261001321"
+    ]
+  },
+  {
+    "course_code": "10013",
+    "course_name": "תקשורת מחשבים לתוכנה",
+    "course_type": "תרגול",
+    "group": "261001320/1",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ב",
+    "start_time": "20:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר בינסקי הדר",
+    "room": "055  פרונטלי בניין מעבדות",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "ארגון המחשב ושפת סף",
+        "alternative": "ארכיטקטורת מחשבים ושפת סף"
+      }
+    ],
+    "linked_courses": [
+      "261001321"
+    ]
+  },
+  {
+    "course_code": "80926",
+    "course_name": "Gender Sexuality & Desire in Cyberspace",
+    "course_type": "סופי-הרצאה",
+    "group": "268092601",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "א",
+    "start_time": "08:00",
+    "end_time": "11:50",
+    "lecturer": "ד\"ר נור עופר",
+    "room": "מפ\"ט תמר",
+    "status": "פנוי",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80912",
+    "course_name": "Selected Issues in Engineering Ethics",
+    "course_type": "סופי-הרצאה",
+    "group": "268091201",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ג",
+    "start_time": "17:00",
+    "end_time": "20:50",
+    "lecturer": "ד\"ר שהם יקותיאל",
+    "room": "מפ\"ט יעד",
+    "status": "רשימת המתנה",
+    "prerequisites": [],
+    "linked_courses": []
+  },
+  {
+    "course_code": "80940",
+    "course_name": "Wonders of Human Language",
+    "course_type": "סופי-הרצאה",
+    "group": "268094001",
+    "scheduled": true,
+    "semester": "קיץ",
+    "day": "ד",
+    "start_time": "09:00",
+    "end_time": "12:50",
+    "lecturer": "ד\"ר שוורץ בריגיטה רחל",
+    "room": "מפ\"ט גפן",
+    "status": "פנוי",
+    "prerequisites": [
+      {
+        "required": "אנגלית מתקדמים א' (בינוניים)",
+        "alternative": null
+      }
+    ],
+    "linked_courses": []
+  }
+]
