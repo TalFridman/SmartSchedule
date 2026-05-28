@@ -38,7 +38,7 @@ SUPABASE_KEY = (
     ".eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxqb2FncGFpenR4amhiZHZrY3R3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzk5NzQ0MTUsImV4cCI6MjA5NTU1MDQxNX0"
     ".OxWsOjU-v5-6aiU3mLnzGras4gba9GWX1fo22PjzAz0"
 )
-JSON_PATH  = Path(__file__).parent / "afeka_courses_summer_2026.json"
+JSON_PATH  = Path(__file__).parent / "afeka_courses_all.json"
 BATCH_SIZE = 500   # rows per Supabase request
 
 # Hebrew label required by the DB constraint for parent/standalone groups
@@ -158,8 +158,24 @@ for row in raw:
     }
 
 parents  = [g for g in groups.values() if g["parent_group_id"] is None]
-children = [g for g in groups.values() if g["parent_group_id"] is not None]
-print("    {} parent/standalone groups, {} child groups.".format(len(parents), len(children)))
+
+# Only keep children whose parent was actually found in the JSON.
+# Some scraped datasets are missing parent rows, which would cause a FK violation.
+parent_ids = {g["group_id"] for g in parents}
+children_all = [g for g in groups.values() if g["parent_group_id"] is not None]
+children = [g for g in children_all if g["parent_group_id"] in parent_ids]
+
+orphans = [g for g in children_all if g["parent_group_id"] not in parent_ids]
+if orphans:
+    print("    [!] Skipping {} child group(s) whose parent is missing from the data:".format(len(orphans)))
+    for o in orphans:
+        print("        {} -> parent {} not found".format(o["group_id"], o["parent_group_id"]))
+
+# Track which group_ids were actually inserted so sessions can be filtered too
+inserted_group_ids = {g["group_id"] for g in parents} | {g["group_id"] for g in children}
+
+print("    {} parent/standalone groups, {} child groups ({} orphans skipped).".format(
+    len(parents), len(children), len(orphans)))
 
 upsert_all(sb, "course_groups", parents)   # parents first (self-FK)
 upsert_all(sb, "course_groups", children)
@@ -176,7 +192,8 @@ delete_by_ids(sb, "group_sessions", "group_id", all_group_ids)
 
 sessions = []
 for row in raw:
-    if row["scheduled"] and row["day"] and row["start_time"] and row["end_time"]:
+    if (row["scheduled"] and row["day"] and row["start_time"] and row["end_time"]
+            and row["group"] in inserted_group_ids):   # skip orphaned groups
         sessions.append({
             "group_id":   row["group"],
             "day":        row["day"],

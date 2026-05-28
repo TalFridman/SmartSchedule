@@ -1,5 +1,6 @@
 import { Router, Request, Response, NextFunction } from "express";
 import { prepareData } from "../services/dataPrep.service";
+import { findSchedules } from "../services/scheduler.service";
 
 export const scheduleRouter = Router();
 
@@ -7,8 +8,7 @@ export const scheduleRouter = Router();
  * POST /api/schedule
  * Body: { courseCodes: string[] }
  *
- * Returns the PreparedData structure ready for the DFS backtracker.
- * (In the next phase this will also run the scheduler and return the final timetable.)
+ * Returns up to 10 conflict-free timetable combinations as Block[][].
  */
 scheduleRouter.post(
   "/",
@@ -33,12 +33,14 @@ scheduleRouter.post(
       // ── Data Preparation ────────────────────────────────────────────────────
       const preparedData = await prepareData(courseCodes);
 
-      // TODO (next phase): pass preparedData to the DFS scheduler here.
-      // For now, return the prepared data so it can be verified.
+      // ── Schedule Generation ─────────────────────────────────────────────────
+      const schedules = findSchedules(preparedData);
+
       res.json({
         ok: true,
         coursesLoaded: preparedData.length,
-        data: preparedData,
+        schedulesFound: schedules.length,
+        schedules,
       });
     } catch (err) {
       next(err);
