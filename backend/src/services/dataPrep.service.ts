@@ -53,19 +53,20 @@ function normalizeTime(t: string): string {
  *
  * Courses with no schedulable blocks are omitted and logged as warnings.
  */
-export async function prepareData(courseCodes: string[]): Promise<PreparedData> {
+export async function prepareData(courseCodes: string[], semester: string): Promise<PreparedData> {
   if (courseCodes.length === 0) return [];
 
   // ── Queries (run in parallel) ──────────────────────────────────────────────
 
   const [groupsResult, sessionsResult] = await Promise.all([
-    // Query 1: All course_groups for the requested courses + course name
+    // Query 1: All course_groups for the requested courses + course name, filtered by semester
     supabase
       .from("course_groups")
       .select(
         "group_id, course_code, type, lecturer, parent_group_id, is_scheduled, courses(course_name)"
       )
-      .in("course_code", courseCodes),
+      .in("course_code", courseCodes)
+      .eq("semester", semester),
 
     // Query 2: All sessions belonging to groups of the requested courses
     supabase

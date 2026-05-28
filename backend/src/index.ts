@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import { scheduleRouter } from "./routes/schedule.route";
 import { chatRouter } from "./routes/chat.route";
-import { authMiddleware } from "./middleware/auth.middleware";
+import { supabase } from "./lib/supabaseClient";
 
 const app  = express();
 const PORT = process.env.PORT ?? 3000;
@@ -37,8 +37,21 @@ app.use(express.json());
 
 // ── Routes ────────────────────────────────────────────────────────────────────
 app.get("/health", (_req, res) => res.json({ ok: true }));
+
+app.get("/api/courses/count", async (_req, res, next) => {
+  try {
+    const { count, error } = await supabase
+      .from("courses")
+      .select("*", { count: "exact", head: true });
+    if (error) throw new Error(error.message);
+    res.json({ count: count ?? 0 });
+  } catch (err) {
+    next(err);
+  }
+});
+
 app.use("/api/schedule", scheduleRouter);
-app.use("/api/chat", authMiddleware, chatRouter);
+app.use("/api/chat", chatRouter);
 
 // ── Global error handler ──────────────────────────────────────────────────────
 app.use((err: unknown, _req: express.Request, res: express.Response, _next: express.NextFunction) => {

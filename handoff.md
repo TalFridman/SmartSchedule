@@ -3,96 +3,232 @@
 ---
 
 ## Goal
-Build a full-stack **course schedule generator** for Afeka College students.
-The student picks a list of courses (chat with llm); the system finds all valid, conflict-free timetable combinations using a **backtracking (DFS) algorithm** on the backend and presents the results on the frontend.
 
-Stack: Node.js + TypeScript backend · Supabase (PostgreSQL) · React frontend (not started).
+Build a full-stack **course schedule generator** for Afeka College students.
+The student describes their desired courses and constraints in natural language; an AI chatbot extracts the structured data; a DFS backtracking algorithm finds all conflict-free timetable combinations; the results are displayed on a React frontend.
+
+**Stack:** Node.js + TypeScript (Express) backend · Supabase (PostgreSQL) · OpenAI API · React 19 + Vite + Zustand frontend (JSX, plain JS).
 
 ---
 
 ## Current State
+
 | Layer | Status |
 |---|---|
 | Database | ✅ Fully seeded — 451 courses, 2 241 groups, 2 597 sessions, 855 prerequisites |
-| Import pipeline | ✅ `import_to_supabase.py` — idempotent, handles orphaned groups |
-| Backend scaffolding | ✅ Express + TypeScript project bootstrapped (`backend/`) |
+| Backend scaffolding | ✅ Express + TypeScript, CORS configured, global error handler |
 | Data types | ✅ `Session`, `Block`, `CourseBlocks`, `PreparedData`, `DayMasks` defined |
 | Bitmask engine | ✅ `sessionToBitmask`, `buildDayMasks`, `blocksConflict` — tested & verified |
-| Data Preparation | ✅ `prepareData(courseCodes[])` — 2 parallel DB queries → 4-pass assembly → MRV sort |
-| HTTP endpoint | ✅ `POST /api/schedule { courseCodes[] }` — returns `PreparedData` JSON |
-| **DFS Scheduler** | ❌ **Not written yet** — this is the next step |
-| Frontend | ❌ Not started |
+| Data preparation | ✅ `prepareData(courseCodes[], semester)` — semester-filtered DB queries + MRV sort |
+| DFS scheduler | ✅ `findSchedules(data, maxResults?)` — backtracking with early termination |
+| Schedule endpoint | ✅ `POST /api/schedule` — returns `Block[][]` + `missingCourses[]` |
+| Chat service | ✅ OpenAI Structured Outputs pipeline (4-phase: catalog → prompt → GPT-4o → prereqs) |
+| Chat endpoint | ✅ `POST /api/chat` — public (no auth), always responds in Hebrew |
+| Course count endpoint | ✅ `GET /api/courses/count` — live Supabase count |
+| Frontend components | ✅ Full UI: chat sidebar, schedule grid, schedule cards, warning flow |
+| Frontend services | ✅ All real API calls — zero mocks remaining |
+| Missing semester flow | ✅ Backend detects missing courses → frontend shows warning + asks confirmation |
 
-The server runs on `http://localhost:3000`.
-`GET /health` → `{ ok: true }`
-`POST /api/schedule` → returns fully assembled `PreparedData` (Block objects with pre-computed `dayMasks`).
-
----
-
-## Files in Flight
-These files will be touched in the next session:
-
-| File | Why |
-|---|---|
-| `backend/src/services/scheduler.service.ts` | **Create** — the DFS backtracking engine (does not exist yet) |
-| `backend/src/routes/schedule.route.ts` | **Edit** — wire the scheduler call after `prepareData()` and return the final timetable instead of raw `PreparedData` |
+The server runs on `http://localhost:3000`. Frontend dev server runs on `http://localhost:5173`.
 
 ---
 
-## Changed This Session
+## File Structure
 
-### Database / Python
-| File | What happened |
-|---|---|
-| `import_to_supabase.py` | Created from scratch; imports all 4 tables in FK-safe order; idempotent (upsert + delete-then-insert); orphan-guard added |
-| `afeka_courses_all.json` | New full dataset (all semesters, 2 645 records) replacing the summer-only file |
-| `.gitignore` | Created at repo root — covers Node, Python, `.env`, OS/editor files |
-
-### Backend (all created from scratch)
 ```
-backend/
-├── .env                              Supabase URL + anon key + PORT
-├── package.json                      express, @supabase/supabase-js, dotenv, ts-node-dev
-├── tsconfig.json
-└── src/
-    ├── index.ts                      Express entry point, /health route, error handler
-    ├── lib/supabaseClient.ts         Singleton Supabase client
-    ├── types/schedule.types.ts       Session, Block, CourseBlocks, PreparedData, GroupNode
-    ├── utils/bitmask.ts              sessionToBitmask, buildDayMasks, blocksConflict
-    ├── services/dataPrep.service.ts  prepareData() — DB queries + 4-pass assembly
-    └── routes/schedule.route.ts      POST /api/schedule with input validation
+backend/src/
+├── index.ts                      Express entry, CORS, /health, /api/courses/count
+├── lib/supabaseClient.ts         Singleton Supabase client
+├── types/schedule.types.ts       Session, Block, CourseBlocks, PreparedData, GroupNode, DayMasks
+├── utils/bitmask.ts              sessionToBitmask, buildDayMasks, blocksConflict
+├── middleware/auth.middleware.ts  Auth middleware — UNUSED (auth removed for hackathon)
+├── services/
+│   ├── dataPrep.service.ts       prepareData(courseCodes[], semester) → PreparedData
+│   ├── scheduler.service.ts      findSchedules(data, maxResults?) → Block[][]
+│   └── chat.service.ts           processChat(message, history) → ChatResponse
+└── routes/
+    ├── schedule.route.ts         POST /api/schedule
+    └── chat.route.ts             POST /api/chat
+
+frontend/src/
+├── App.jsx
+├── main.jsx
+├── lib/supabaseClient.js         Supabase client — UNUSED (auth removed for hackathon)
+├── store/
+│   ├── chatStore.js              messages, isTyping, courseCount, pendingSchedule
+│   └── scheduleStore.js          schedules, resultCount, loading, error
+├── services/
+│   └── scheduleService.js        sendChatMessage, fetchScheduleOptions, fetchCourseCount
+└── components/
+    ├── MainLayout.jsx
+    ├── AppHeader.jsx
+    ├── ChatSidebar.jsx
+    ├── ChatHeader.jsx
+    ├── ChatInput.jsx             Submit logic, pendingSchedule confirmation flow
+    ├── ChatMessages.jsx
+    ├── ChatMessage.jsx
+    ├── ChatWarningCard.jsx
+    ├── EmptyState.jsx
+    ├── SchedulePanel.jsx
+    ├── ScheduleResults.jsx
+    ├── ScheduleCard.jsx
+    ├── ScheduleGrid.jsx          Time range 08:00–23:00, 80px/hour
+    └── ScheduleBlock.jsx         Shows: course name, code, group number, lecturer, room
 ```
 
 ---
 
-## Failed Attempts
+## API Contract
+
+### `POST /api/chat`
+**Auth:** None (public)
+
+**Request:**
+```json
+{
+  "message": "אני רוצה סמסטר א, מבני נתונים ותקשורת מחשבים, ללא יום שישי",
+  "conversationHistory": [
+    { "role": "user", "content": "..." },
+    { "role": "assistant", "content": "..." }
+  ]
+}
+```
+
+**Response:**
+```json
+{
+  "ok": true,
+  "status": "ready" | "clarification_needed",
+  "semester": "א" | "ב" | "קיץ" | "",
+  "parsedCourses": ["20407", "20465"],
+  "constraints": {
+    "blockedDays": ["Friday"],
+    "preferredTimeRange": { "start": "09:00", "end": "18:00" },
+    "maxDaysPerWeek": null
+  },
+  "botMessage": "מצאתי את הקורסים שביקשת..."
+}
+```
+
+**Rules enforced by GPT-4o:**
+- Always responds in Hebrew (`botMessage`)
+- Asks for semester if not mentioned
+- Exact-match only — no fuzzy matching, no translation, no guessing
+- `status: "ready"` only when ALL courses matched 100%
+
+---
+
+### `POST /api/schedule`
+**Auth:** None (public)
+
+**Request:**
+```json
+{ "courseCodes": ["20407", "20465"], "semester": "א" }
+```
+
+**Response:**
+```json
+{
+  "ok": true,
+  "coursesLoaded": 2,
+  "schedulesFound": 8,
+  "missingCourses": [],
+  "schedules": [ [ { ...Block }, { ...Block } ], ... ]
+}
+```
+
+`missingCourses` is populated when a course code exists in the DB but has no groups in the requested semester:
+```json
+"missingCourses": [{ "code": "20555", "name": "סטטיסטיקה" }]
+```
+
+Frontend handles this by showing a warning and asking the user to confirm before re-running without the missing course(s).
+
+---
+
+### `GET /api/courses/count`
+Returns `{ "count": 451 }` — live count from Supabase.
+
+---
+
+## Data Flow
+
+```
+User types → ChatInput.handleSubmit()
+  builds conversationHistory from chatStore.messages
+  → sendChatMessage(text, history)
+      POST /api/chat  { message, conversationHistory }
+      ← { status, semester, parsedCourses, botMessage }
+  addMessage(botMsg)           ← always shown
+  if meta.status === "ready":
+    → fetchScheduleOptions(parsedCourses, semester)
+        POST /api/schedule  { courseCodes, semester }
+        if missingCourses.length > 0:
+          ← show warning message, set pendingSchedule, wait for "כן"
+        else:
+          ← transformSchedules(Block[][]) → ScheduleOption[]
+          setSchedules / setResultCount → SchedulePanel re-renders
+  if pendingSchedule && user types "כן":
+    → runSchedule(pendingSchedule.courses, pendingSchedule.semester)
+```
+
+---
+
+## Environment Variables
+
+### `backend/.env`
+```
+SUPABASE_URL=https://ljoagpaiztxjhbdvkctw.supabase.co
+SUPABASE_ANON_KEY=<anon key>
+OPENAI_API_KEY=sk-...
+OPENAI_MODEL=gpt-4o
+PORT=3000
+ALLOWED_ORIGIN=          # optional — production frontend origin
+```
+
+### `frontend/.env`
+```
+VITE_API_URL=http://localhost:3000
+VITE_SUPABASE_URL=https://ljoagpaiztxjhbdvkctw.supabase.co
+VITE_SUPABASE_ANON_KEY=<anon key>
+```
+
+---
+
+## Running the Project
+
+```bash
+# Backend
+cd backend
+npm run dev        # ts-node-dev with hot reload on :3000
+
+# Frontend
+cd frontend
+npm run dev        # Vite dev server on :5173
+```
+
+---
+
+## Known Limitations (post-hackathon)
+
+| Issue | Location | Fix later |
+|---|---|---|
+| `type` field (הרצאה/תרגיל/מעבדה) is always `""` | `scheduleService.js → blockToFlatSessions` | Add `type` to backend `Session` shape in `dataPrep.service.ts` |
+| `group_number` shows full group ID string, not short suffix | `scheduleService.js → blockToFlatSessions` | Parse suffix: `parentGroupId.split("-")[1]` |
+| `constraints` extracted by GPT-4o are not yet applied to DFS | `scheduler.service.ts` | Pass constraints to `findSchedules` and filter results |
+| Frontend test suite (`__tests__/`) is stale | `frontend/src/__tests__/` | Update `chatStore.test.js` and `scheduleStore.test.js` to reflect real API shapes |
+| `auth.middleware.ts` and `supabaseClient.js` (frontend) are unused dead code | Both files | Delete before production deploy |
+| No production auth | Entire app | Re-enable Supabase Auth when moving beyond hackathon |
+
+---
+
+## Failed Attempts (Historical)
 
 | What | Why it failed | Fix applied |
 |---|---|---|
-| `import_to_supabase.py` — first run on full dataset | FK violation on `course_groups`: 2 child groups (`269090524/1`, `269092610/1`) referenced parent IDs that don't exist in the JSON (scraper missed those parent rows) | Added orphan-guard: filter children whose `parent_group_id` isn't in the inserted parents set; log skipped groups |
-| Same script — second run | FK violation on `group_sessions`: sessions were still being built for the 2 orphaned group IDs even though the groups themselves were skipped | Added `inserted_group_ids` set; session-building loop skips any `row["group"]` not in that set |
-| First run of `import_to_supabase.py` on Windows | `UnicodeEncodeError` — emoji characters (📂 ✅ ──) in `print()` calls couldn't be encoded by the Windows cp1255 terminal code page | Replaced all emoji and Unicode box-drawing chars with plain ASCII (`[*]`, `[ok]`, `[!]`, `---`) |
-| Supabase JS join type mismatch | `courses(course_name)` in a Supabase `.select()` returns an **array** `{ course_name }[]`, not a single object — caused a TypeScript compile error in `dataPrep.service.ts` | Changed `RawGroupRow.courses` type to accept both array and object; access via `Array.isArray` guard |
-
----
-
-## Next Step
-**Write the DFS backtracking scheduler** in `backend/src/services/scheduler.service.ts`.
-
-```ts
-// Signature to implement:
-export function findSchedules(
-  data: PreparedData,
-  maxResults?: number          // e.g. stop after 10 valid schedules
-): Block[][]                   // each inner array = one valid full timetable
-```
-
-Algorithm sketch:
-1. Iterate `PreparedData` (already MRV-sorted — most constrained course first).
-2. For each course, try each `Block` in order.
-3. Before placing a block, call `blocksConflict(candidate, alreadyPlaced[i])` for every placed block — O(N·D) total, where D ≤ 6.
-4. If no conflict → recurse to the next course.
-5. If all courses are placed → push the current assignment to results.
-6. Backtrack if conflict or no blocks remain.
-
-Once written, update `schedule.route.ts` to call `findSchedules(preparedData)` and return the timetable array to the frontend.
+| `import_to_supabase.py` FK violation | 2 child groups referenced missing parent IDs | Added orphan-guard; skip + log missing parents |
+| Same script on Windows | `UnicodeEncodeError` on emoji in `print()` | Replaced all emoji with plain ASCII |
+| Supabase JS join type mismatch | `courses(course_name)` returns array not object | `Array.isArray` guard in `dataPrep.service.ts` |
+| `POST /api/chat` 500 error | Query used `prerequisite_code` column (doesn't exist) | Correct column is `req_course_name` in `prerequisites` table |
+| Bot responded in English | System prompt had no language enforcement | Added `LANGUAGE RULE — ABSOLUTE` to system prompt |
+| Frontend showed 80 courses | `courseCount: 80` hardcoded in `chatStore.js` | `ChatSidebar` calls `fetchCourseCount()` on mount |

@@ -30,6 +30,7 @@ export interface ChatConstraints {
 
 export interface ChatResponse {
   status: "ready" | "clarification_needed";
+  semester: string;
   parsedCourses: string[];
   constraints: ChatConstraints;
   botMessage: string;
@@ -54,6 +55,13 @@ const RESPONSE_SCHEMA = {
         description:
           "'ready' only when ALL requested courses are confidently matched to the catalog. " +
           "'clarification_needed' if ANY course is ambiguous, misspelled, or not found.",
+      },
+      semester: {
+        type: "string",
+        enum: ["א", "ב", "קיץ", ""],
+        description:
+          "The semester extracted from the student's message: 'א', 'ב', or 'קיץ'. " +
+          "Empty string if the student has not specified a semester yet.",
       },
       parsedCourses: {
         type: "array",
@@ -95,7 +103,7 @@ const RESPONSE_SCHEMA = {
           "When prerequisites are missing, warn the user here.",
       },
     },
-    required: ["status", "parsedCourses", "constraints", "botMessage"],
+    required: ["status", "semester", "parsedCourses", "constraints", "botMessage"],
     additionalProperties: false,
   },
 } as const;
@@ -129,6 +137,17 @@ Your job is to interpret a student's natural language request and extract:
   1. Which courses they want to take (mapped to exact course codes from the catalog below).
   2. Any scheduling constraints they mention (blocked days, preferred time windows, etc.).
 
+LANGUAGE RULE — ABSOLUTE:
+- You MUST always write botMessage in Hebrew only, no matter what language the student uses.
+- Never write even a single word in English or any other language in botMessage.
+
+SEMESTER RULE:
+- Extract the semester from the student's message and place it in the "semester" field:
+    "א" for semester A, "ב" for semester B, "קיץ" for summer. Empty string if not mentioned.
+- If the semester is not mentioned, set status to "clarification_needed", set semester to "",
+  and ask the student to specify it (א / ב / קיץ) in botMessage before doing anything else.
+- Only attempt to match course names once the semester field is non-empty.
+
 EXACT-MATCH RULES — THESE ARE ABSOLUTE AND MUST NEVER BE BROKEN:
 - The catalog contains courses in both Hebrew and English.
 - NO translation is allowed. Do not translate a Hebrew name to English or vice versa.
@@ -157,7 +176,8 @@ Time values in HH:MM 24-hour format.`;
 
 interface PrerequisiteRow {
   course_code: string;
-  prerequisite_code: string;
+  req_course_name: string;
+  condition_group: number;
 }
 
 async function fetchPrerequisites(courseCodes: string[]): Promise<PrerequisiteRow[]> {
@@ -165,33 +185,38 @@ async function fetchPrerequisites(courseCodes: string[]): Promise<PrerequisiteRo
 
   const { data, error } = await supabase
     .from("prerequisites")
-    .select("course_code, prerequisite_code")
+    .select("course_code, req_course_name, condition_group")
     .in("course_code", courseCodes);
 
   if (error) throw new Error(`DB error fetching prerequisites: ${error.message}`);
   return (data ?? []) as PrerequisiteRow[];
 }
 
-function buildPrerequisiteWarning(
-  parsedCourses: string[],
-  prerequisites: PrerequisiteRow[]
-): string | null {
-  const parsedSet = new Set(parsedCourses);
-  const missing: string[] = [];
+function buildPrerequisiteWarning(prerequisites: PrerequisiteRow[], catalog: CourseRow[]): string | null {
+  if (prerequisites.length === 0) return null;
 
+  const courseNameById = new Map(catalog.map((c) => [c.course_code, c.course_name]));
+
+  // Group: course_code → condition_group → req_course_names[]
+  const byCourse = new Map<string, Map<number, string[]>>();
   for (const row of prerequisites) {
-    if (!parsedSet.has(row.prerequisite_code)) {
-      missing.push(`${row.prerequisite_code} (required for ${row.course_code})`);
+    if (!byCourse.has(row.course_code)) byCourse.set(row.course_code, new Map());
+    const byGroup = byCourse.get(row.course_code)!;
+    if (!byGroup.has(row.condition_group)) byGroup.set(row.condition_group, []);
+    byGroup.get(row.condition_group)!.push(row.req_course_name);
+  }
+
+  const lines: string[] = ["⚠️ שים לב לדרישות קדם:"];
+
+  for (const [courseCode, byGroup] of byCourse) {
+    const courseName = courseNameById.get(courseCode) ?? courseCode;
+    lines.push(`עבור ${courseName} (${courseCode}):`);
+    for (const names of byGroup.values()) {
+      lines.push(`• ${names.join(" או ")}`);
     }
   }
 
-  if (missing.length === 0) return null;
-
-  return (
-    `⚠️ Prerequisite notice: the following courses are required but not in your selection: ` +
-    missing.join(", ") +
-    `. Make sure you have completed them or add them to your schedule.`
-  );
+  return lines.join("\n");
 }
 
 // ── Main export ───────────────────────────────────────────────────────────────
@@ -233,7 +258,7 @@ export async function processChat(
   // Phase D — Prerequisite enrichment (only if courses were matched)
   if (parsed.parsedCourses.length > 0) {
     const prerequisites = await fetchPrerequisites(parsed.parsedCourses);
-    const warning = buildPrerequisiteWarning(parsed.parsedCourses, prerequisites);
+    const warning = buildPrerequisiteWarning(prerequisites, catalog);
 
     if (warning) {
       parsed.botMessage = `${parsed.botMessage}\n\n${warning}`;
