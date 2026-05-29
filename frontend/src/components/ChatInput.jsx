@@ -12,7 +12,18 @@ export default function ChatInput() {
     setLoading(true)
     try {
       const { success: ok, data: schedules, missingCourses, error } = await fetchScheduleOptions(courses, semester)
-      if (!ok) { setError(error ?? 'שגיאה בטעינת המערכות'); return }
+
+      if (!ok) {
+        setError(error ?? 'שגיאה בטעינת המערכות')
+        addMessage({
+          id: crypto.randomUUID(),
+          role: 'assistant',
+          content: `מצטער, אירעה שגיאה בעת יצירת המערכות:\n${error ?? 'שגיאה לא ידועה'}`,
+          type: 'warning',
+          timestamp: Date.now(),
+        })
+        return
+      }
 
       if (missingCourses.length > 0) {
         const names = missingCourses.map((c) => c.name).join(', ')
@@ -26,6 +37,17 @@ export default function ChatInput() {
         })
         const availableCodes = courses.filter((code) => !missingCourses.find((m) => m.code === code))
         setPendingSchedule({ courses: availableCodes, semester })
+        return
+      }
+
+      if (schedules.length === 0) {
+        addMessage({
+          id: crypto.randomUUID(),
+          role: 'assistant',
+          content: 'לא נמצאו מערכות שעות ללא התנגשויות עבור הקורסים שבחרת.\nנסה לשנות קורסים או להסיר מגבלות.',
+          type: 'warning',
+          timestamp: Date.now(),
+        })
         return
       }
 

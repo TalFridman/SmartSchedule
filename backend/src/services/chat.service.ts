@@ -211,8 +211,14 @@ function buildPrerequisiteWarning(prerequisites: PrerequisiteRow[], catalog: Cou
   for (const [courseCode, byGroup] of byCourse) {
     const courseName = courseNameById.get(courseCode) ?? courseCode;
     lines.push(`עבור ${courseName} (${courseCode}):`);
+    const seenBullets = new Set<string>();
     for (const names of byGroup.values()) {
-      lines.push(`• ${names.join(" או ")}`);
+      const unique = [...new Set(names)];
+      const bullet = `• ${unique.join(" או ")}`;
+      if (!seenBullets.has(bullet)) {
+        seenBullets.add(bullet);
+        lines.push(bullet);
+      }
     }
   }
 
